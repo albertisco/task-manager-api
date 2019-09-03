@@ -8,7 +8,7 @@ moongose.connect(url, {
     useFindAndModify: false
 })
         .then( (result) => console.log('conectado'))
-        .catch( (error) => console.error('error'))
+        .catch( (error) => console.error('error conect db'))
 
 
 
